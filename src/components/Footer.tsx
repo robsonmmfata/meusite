@@ -13,7 +13,7 @@ const Footer = () => {
              Robson <span className="text-portfolio-accent"> Alex</span>
             </a>
             <p className="text-gray-600 mb-4">
-              Programador Full Stack & Designer UI.
+              Programador Full Stack & Designer UI/Ux.
             </p>
             <div className="flex space-x-4">
               <a href="https://github.com/robsonmmfata" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-portfolio-violet transition-colors">
