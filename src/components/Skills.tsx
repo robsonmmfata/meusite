@@ -6,7 +6,7 @@ const skillsData = [
   { name: 'UI/UX Design/Photoshop/Corel/Figma', level: 90 },
   { name: 'HTML/CSS/Tailwind Css/Java', level: 95 },
   { name: 'Postgresql/Node js/Mongo Db', level: 85 },
-  { name: 'React/React Native/Next Js', level: 80 },
+  { name: 'React/React Native/Next Js/Flutter/kotlin', level: 80 },
   { name: 'Python/C#', level: 90 },
   { name: 'GraphQL', level: 85 },
   { name: 'Design Resposivo', level: 100 },

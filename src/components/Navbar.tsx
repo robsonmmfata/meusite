@@ -1,6 +1,4 @@
-
 import React, { useState, useEffect } from 'react';
-import { Button } from "@/components/ui/button";
 import { MenuIcon, XIcon } from "lucide-react";
 
 const Navbar = () => {
@@ -48,9 +46,13 @@ const Navbar = () => {
               {item.name}
             </a>
           ))}
-          <Button className="bg-portfolio-indigo hover:bg-portfolio-violet text-white transition-colors">
+          <a
+            href="/mycvde atualizado.pdf"
+            download
+            className="bg-portfolio-indigo hover:bg-portfolio-violet text-white transition-colors px-4 py-2 rounded inline-block text-center"
+          >
             Download CV
-          </Button>
+          </a>
         </div>
         
         {/* Mobile Menu Button */}
@@ -70,7 +72,7 @@ const Navbar = () => {
       {mobileMenuOpen && (
         <div className="md:hidden bg-white shadow-lg absolute w-full py-4 px-6 animate-fade-in">
           <div className="flex flex-col space-y-4">
-            {navItems.map((item) => (
+          {navItems.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
@@ -80,9 +82,13 @@ const Navbar = () => {
                 {item.name}
               </a>
             ))}
-            <Button className="bg-portfolio-indigo hover:bg-portfolio-violet text-white transition-colors w-full mt-2">
-              Download CV
-            </Button>
+          <a
+            href="/mycvde atualizado.pdf"
+            download
+            className="bg-portfolio-indigo hover:bg-portfolio-violet text-white transition-colors w-full mt-2 px-4 py-2 rounded inline-block text-center"
+          >
+            Download CV
+          </a>
           </div>
         </div>
       )}

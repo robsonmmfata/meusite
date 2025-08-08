@@ -1,7 +1,11 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+
+// *** IMPORTAÇÃO DA SUA FOTO DE PERFIL ***
+// Como a foto está diretamente em `src/` e este componente está em `src/components/`,
+// o caminho correto é `../1741032172529.jpg` (subir um nível para acessar `src/`).
+import minhaFotoPrincipal from '../1741032172529.jpg'; 
 
 const Hero = () => {
   return (
@@ -11,19 +15,22 @@ const Hero = () => {
           <div className="order-2 lg:order-1">
             <p className="text-portfolio-violet font-medium mb-4 animate-fade-in">Olá, Eu Sou ...</p>
             <h1 className="text-4xl md:text-6xl font-serif font-bold mb-4 text-portfolio-blue animate-slide-up">
-              Programador Full Stack &<span className="text-gradient">Designer</span> Gráfico.
+              Programador <span className="text-gradient">Full Stack  Sênior</span>&<span className="text-gradient">Designer Gráfico.</span> 
             </h1>
             <p className="text-gray-600 text-lg mb-8 max-w-lg animate-slide-up" style={{animationDelay: '0.2s'}}>
               Sou Freelancer Como Full Stack developer e UI Designer. Desenvolvo Interfaces Modernas E De Alta Qualidade, Concentrado Em Performance, Animações Criativas E Soluções, Responsividade E SEO,Com Mais De 7 Anos De Experiência.
             </p>
             <div className="flex flex-wrap gap-4 animate-slide-up" style={{animationDelay: '0.4s'}}>
-              <Button className="bg-portfolio-indigo hover:bg-portfolio-violet text-white px-8 py-6 rounded-md transition-all shadow-lg hover:shadow-xl">
-               Peça Orçamento Agora
+              <a
+                href="https://wa.me/5519971556747?text=Ol%C3%A1%2C%20gostaria%20de%20pedir%20um%20or%C3%A7amento!!"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-portfolio-indigo hover:bg-portfolio-violet text-white px-8 py-6 rounded-md transition-all shadow-lg hover:shadow-xl inline-flex items-center"
+              >
+                Peça Orçamento Agora
                 <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-              <Button variant="outline" className="border-portfolio-indigo text-portfolio-indigo hover:bg-portfolio-indigo/5 px-8 py-6 rounded-md transition-all">
-                Contato
-              </Button>
+              </a>
+              
             </div>
             <div className="mt-12 flex items-center gap-6 animate-slide-up" style={{animationDelay: '0.6s'}}>
               <div className="flex items-center gap-2">
@@ -49,7 +56,7 @@ const Hero = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-tr from-portfolio-indigo to-portfolio-violet animate-float"></div>
               <img 
-                src="/src/1741032172529.jpg" 
+                src={minhaFotoPrincipal} // <-- AGORA USANDO A VARIÁVEL IMPORTADA
                 alt="Professional headshot"
                 className="absolute top-5 left-5 w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-white shadow-xl animate-float"
                 style={{animationDelay: '0.3s'}}
