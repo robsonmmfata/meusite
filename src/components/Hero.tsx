@@ -18,7 +18,7 @@ const Hero = () => {
               Programador <span className="text-gradient">Full Stack  Sênior</span>&<span className="text-gradient">Mobile.</span> 
             </h1>
             <p className="text-gray-600 text-lg mb-8 max-w-lg animate-slide-up" style={{animationDelay: '0.2s'}}>
-              Sou Freelancer Como Full Stack developer e UI Designer. Desenvolvo Interfaces Modernas E De Alta Qualidade, Concentrado Em Performance, Animações Criativas E Soluções, Responsividade E SEO,Com Mais De 7 Anos De Experiência.
+              Sou Freelancer Como Full Stack developer e UI Designer. Desenvolvo Interfaces Modernas E De Alta Qualidade, Concentrado Em Performance, Animações Criativas E Soluções, Responsividade E SEO,Com Mais De 13 Anos De Experiência.
             </p>
             <div className="flex flex-wrap gap-4 animate-slide-up" style={{animationDelay: '0.4s'}}>
               <a
