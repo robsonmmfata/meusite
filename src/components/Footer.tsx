@@ -13,7 +13,7 @@ const Footer = () => {
              Robson <span className="text-portfolio-accent"> Alex</span>
             </a>
             <p className="text-gray-600 mb-4">
-              Programador Full Stack Sênior & Designer UI/Ux.
+              Programador Full Stack Sênior & Mobile.
             </p>
             <div className="flex space-x-4">
               <a href="https://github.com/robsonmmfata" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-portfolio-violet transition-colors">
@@ -56,19 +56,19 @@ const Footer = () => {
             <h3 className="text-lg font-bold text-portfolio-blue mb-4">Services</h3>
             <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-600 hover:text-portfolio-violet transition-colors">UI/UX Designer</a>
+                <a href="#projects" className="text-gray-600 hover:text-portfolio-violet transition-colors">UI/UX Designer</a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-portfolio-violet transition-colors">Desenvolvimento Web</a>
+                <a href="#projects" className="text-gray-600 hover:text-portfolio-violet transition-colors">Desenvolvimento Web</a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-portfolio-violet transition-colors">Desenvolvimento Mobile</a>
+                <a href="#projects" className="text-gray-600 hover:text-portfolio-violet transition-colors">Desenvolvimento Mobile</a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-portfolio-violet transition-colors">Indentidade Visual</a>
+                <a href="#projects" className="text-gray-600 hover:text-portfolio-violet transition-colors">Indentidade Visual</a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-portfolio-violet transition-colors">Saas</a>
+                <a href="#projects" className="text-gray-600 hover:text-portfolio-violet transition-colors">Saas</a>
               </li>
             </ul>
           </div>
